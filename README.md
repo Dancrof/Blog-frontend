@@ -1,6 +1,6 @@
 # Necesario
 
-Este Proyecto se complememta con un BACKEND para su funcionar correctamente, aqui el link (https://github.com/Dancrof/Blog-frontend)
+Este Proyecto se complememta con un BACKEND para su funcionar correctamente, aqui el link (https://github.com/Dancrof/blog-backend)
 
 # Fronend
 
