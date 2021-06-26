@@ -1,0 +1,20 @@
+<div class="fondo"></div>
+<div class="container">
+    <h1 class="Titulo">BLogs<span>Wii</span></h1>
+    <app-slider></app-slider>
+    <div class="login-box">
+        <img src="../../../assets/img/logoMejorado.png" class="avatar" alt="Avatar Image">
+        <h1>Login</h1>
+        <form (submit)="login()">
+            <!-- USERNAME INPUT -->
+            <label for="email">Email</label>
+            <input type="text" [(ngModel)]="user.email" name="email" placeholder="Enter Username" autofocus>
+            <!-- PASSWORD INPUT -->
+            <label for="password">Password</label>
+            <input type="password" [(ngModel)]="user.password" name="password" placeholder="Enter Password">
+            <input type="submit" value="Log In">
+            <!--<a href="#">Lost your Password?</a><br>-->
+            <a routerLink="/signup">Don't have An account?</a>
+        </form>
+    </div>
+</div>

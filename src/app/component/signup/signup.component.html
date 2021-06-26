@@ -1,0 +1,10 @@
+<div class="fondo"></div>
+<form (submit)="signUp()" class="form-register">
+    <h4>Formulario Registro</h4>
+    <input class="controls" type="text" [(ngModel)]="user.username" name="username" placeholder="Inset username">
+    <input class="controls" type="email" [(ngModel)]="user.email" name="email" placeholder="Insert Email">
+    <input class="controls" type="password" [(ngModel)]="user.password" name="password" placeholder="Insert Password">
+    <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+    <input class="botons" type="submit" value="Registrar">
+    <p><a routerLink="/login">¿Ya tengo Cuenta?</a></p>
+</form>
